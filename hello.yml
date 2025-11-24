@@ -2,7 +2,7 @@ name: Hello World
 on: [push]
 jobs:
   output_hello_world:
-    name: Ouoput Hello World
+    name: Output Hello World
     runs-on: unbunto-latest
     steps:
       -uses: action/checkout@v4
